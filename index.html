@@ -68,7 +68,7 @@
 
         <!--This is the see my resume button-->
         <div class="resumebutton">
-            <button class="primary-button align-center" type="button">See my resume</button>
+            <button id=seeMyresume class="primary-button align-center" type="button">See my resume</button>
         </div>
 
         <!--This is my skills section-->
@@ -131,6 +131,11 @@
         <footer class="footer">
             <div class="copy align-center">&copy; 2023 Sensei Silab
             </div>
+
+            <!--copies email ad to clipboard-->
+            <div id="emailButton" class="button" style="margin: 0 auto; display: block; width: 240px;" onclick="copyToClipboard()">emailAddress@gmail.com</div>
+            <textarea id="myEmail" style="opacity: 0;">emailAddress@gmail.com</textarea>
+
           </footer>
     </div>   
 </body>

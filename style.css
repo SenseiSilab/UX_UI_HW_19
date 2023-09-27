@@ -51,7 +51,7 @@ body {
     transition: all 0.3s ease 0s;
 }
 
-.nav-items li a.hover {
+.nav-items ul li:hover {
     color: #0888a9;
 }
 
@@ -65,8 +65,8 @@ header button {
     transition: all 0.3s ease 0s;
 }
 
-button.hover {
-    background-color: rgba(0,136,169,0.8);
+button:hover {
+    background-color: #DE4200;
 }
 
 /*body CSS style*/
