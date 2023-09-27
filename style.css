@@ -113,6 +113,10 @@ button.hover {
     transition: all 0.3s ease 0s;
 }
 
+.primary-button:hover{
+    background-color: #DE4200;
+}
+
 .secondary-button {
     color: black;
     padding: 9px 25px;
@@ -123,6 +127,10 @@ button.hover {
     transition: all 0.3s ease 0s;
 }
 
+.secondary-button:hover{
+    color: white;
+    background-color: #DE4200;
+}
 /* companies section*/
 
 .h1text{
@@ -180,7 +188,7 @@ button.hover {
 
 .flexContainer {
     display: flex;
-    padding: 20px;
+    padding-bottom: 40px;
 }
 
 .left, .center, .right {
@@ -206,7 +214,10 @@ button.hover {
 }
 
 /* My work section style*/
+#workButton {
+    padding-bottom: 80px;
 
+}
 .workGrid {
     display: grid;
     grid-template-rows: 530px 530px 530px;
