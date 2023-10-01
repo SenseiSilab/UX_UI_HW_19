@@ -1,32 +1,44 @@
 console.log("Your index.js file is loaded correctly!");
 
-/*change button color on click*/
+/*change button color on click
 function changeColor() {
   document.getElementById('seeMyresume').style.color = "#DE4200";
-}
+}*/
 
-/*jQuery*/ 
+/*jquery fcn for "on click" event listener*/
+$(".primary-button").on("click", function( event ) {
+  $(event.delegateTarget).css("background-color", "#DE4200");
+});
+
+$(".secondary-button").on("click", function( event ) {
+  $(event.delegateTarget).css("background-color", "#DE4200");
+});
+
+/*jquery fcn for "on hover" event listener*/
+
+
+/*jQuery 
 $('#').click(function( {
   $('#name').css("color", "#DE4200")
-}));
+}));*/
 
 
 /*translate image and introduction statement into frame 
 when user lands on the homepage*/
 
 
-/*fade in for project cards*/
+/*fade in for project cards
 $(document).ready(function(){
     $("button.projecsButton").click(function(){
       $(".caseStudy1").fadeIn();
       $(".caseStudy2").fadeIn("slow");
       $(".caseStudy3").fadeIn(3000);
     });
-  });
+  });*/
 
-/*copying your email address to clipboard*/
+/*copying your email address to clipboard
 function copyToClipboard() {
   document.getElementById('myEmail').select();
   document.execCommand("Copy");
   alert("Copied the text: emailAddress@gmail.com");
-}
+}*/
