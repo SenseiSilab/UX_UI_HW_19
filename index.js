@@ -1,10 +1,5 @@
 console.log("Your index.js file is loaded correctly!");
 
-/*change button color on click
-function changeColor() {
-  document.getElementById('seeMyresume').style.color = "#DE4200";
-}*/
-
 /*jquery fcn for "on click" event listener*/
 $(".primary-button").on("click", function( event ) {
   $(event.delegateTarget).css("background-color", "#DE4200");
@@ -15,17 +10,26 @@ $(".secondary-button").on("click", function( event ) {
 });
 
 /*jquery fcn for "on hover" event listener*/
+$(".primary-button").on("mouseover", function() {
+  $(this).css("background-color", "#DE4200");
+});
 
+$(".secondary-button").on("mouseover", function() {
+  $(this).css("background-color", "#DE4200");
+});
+
+
+/* These are notes for me*/ 
+
+/*change button color on click using vanilla js
+function changeColor() {
+  document.getElementById('seeMyresume').style.color = "#DE4200";
+}*/
 
 /*jQuery 
 $('#').click(function( {
   $('#name').css("color", "#DE4200")
 }));*/
-
-
-/*translate image and introduction statement into frame 
-when user lands on the homepage*/
-
 
 /*fade in for project cards
 $(document).ready(function(){

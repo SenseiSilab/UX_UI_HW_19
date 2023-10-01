@@ -218,6 +218,7 @@ button:hover {
     padding-bottom: 80px;
 
 }
+
 .workGrid {
     display: grid;
     grid-template-rows: 530px 530px 530px;
