@@ -131,14 +131,19 @@ button:hover {
     color: white;
     background-color: #DE4200;
 }
-/* companies section*/
 
-.h1text{
+
+/* companies section*/
+.h1text {
     color:#FF5E1A;
     width:100%;
     margin-top: 100px;
     margin-bottom: 80px;
     text-align:center;
+}
+
+br.number {
+    font-size: 500px;
 }
 
 .stats {
