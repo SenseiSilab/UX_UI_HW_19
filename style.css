@@ -142,8 +142,10 @@ button:hover {
     text-align:center;
 }
 
-br.number {
-    font-size: 500px;
+.number {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .stats {
